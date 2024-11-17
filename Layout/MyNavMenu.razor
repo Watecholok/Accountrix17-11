@@ -1,0 +1,15 @@
+﻿<link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet"> @*for icons*@
+
+<MudNavMenu Color="Color.Primary" Style="height:100vh; background-color:#1e1e2d" Bordered="true">
+    <MudNavGroup Title="Settings" Icon="@Icons.Material.Filled.Settings" Expanded="true">
+        <MudNavLink Href="/accoutdetails" Icon="@Icons.Material.Filled.Security"><b style="text-decoration:underline; text-decoration-color:#1e1e2d;">User Details</b></MudNavLink>
+    </MudNavGroup>
+    <MudNavLink Href="/dashboard" Icon="fas fa-chart-line" Match="NavLinkMatch.All"><b style="text-decoration:underline; text-decoration-color:#1e1e2d;">Dashboard</b></MudNavLink>
+    <MudNavLink Href="/transactions" Icon="@Icons.Material.Filled.AttachMoney"><b style="color:inherit; text-decoration:underline; text-decoration-color:#1e1e2d;">Manage Transactions</b></MudNavLink>
+    <MudNavLink Href="/assets" Icon="@Icons.Material.Filled.Inventory"><b style="text-decoration:underline; text-decoration-color:#1e1e2d;">Manage Assets</b></MudNavLink>
+</MudNavMenu>
+
+
+@code {
+
+}
